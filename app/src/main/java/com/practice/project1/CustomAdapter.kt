@@ -62,7 +62,7 @@ class CustomAdapter(
         private val customTextDetail: TextView = view.findViewById(R.id.customTextDetail)
 
         fun onBind(position: Int, item: CustomItem) {
-            customId.text = (position+1).toString()
+            (position+1).toString().also { customId.text = it }
             customText.text = item.data
             customTextDetail.text = item.detail
             customDelete.setOnClickListener {
