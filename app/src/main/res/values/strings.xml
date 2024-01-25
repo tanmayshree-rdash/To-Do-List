@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project 1</string>
+    <string name="add">ADD ITEM</string>
+    <string name="add_hint">Enter your To Do item</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="dummy_sentence_1">This is a dummy sentence.</string>
+</resources>
