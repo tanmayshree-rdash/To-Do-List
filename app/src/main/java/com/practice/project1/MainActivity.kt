@@ -121,6 +121,7 @@ class MainActivity : AppCompatActivity(), AdapterClickEvents {
         alert.create().show()
     }
 
+
     private fun showAlertDialogEdit(item: CustomItem, position: Int) {
 
         val inputText = EditText(this)
